@@ -2,8 +2,6 @@
 
 document.addEventListener('DOMContentLoaded', (event) => {
 
-	//////////////////// SET INITIAL VARIABLES AND SETUP ARRAY/LOCAL STORAGE DATABASE ////////////////////
-
 	//1. Setting intial required variables 
 	const initialTime = 75;
 	let time = 75;
@@ -16,8 +14,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	let recordsArray = [];
 	// Retrieve data if it exists or keep empty array otherwise.
 	(localStorage.getItem('recordsArray')) ? recordsArray = JSON.parse(localStorage.getItem('recordsArray')): recordsArray = [];
-
-	//////////////////// FUNCTIONS MADE TO REDUCE REPEATED CODE ////////////////////
 
 	// FUNCTION to more quickly call elements less typing means less chance for errors
 	let queryElement = (element) => {
@@ -97,8 +93,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 			onlyDisplaySection("#finish");
 		}
 	}
-
-	//////////////////// QUIZ INITILIZATION AND TIMER ////////////////////
 
 	// On intro button click start time and starts giving questions
 	let clock;

@@ -13,26 +13,13 @@ var questions = [
       choices: ["strings", "booleans", "alerts", "numbers"],
       answer: "alerts"
     },	
-	
-{
-	title: "Commonly used data types DO NOT include",
-	choices: ["Strings", "Booleans", "Alerts", "Numbers"],
-	answer: "Alerts"
-	
-},	
-	
+		
 	{
       title: "The condition in an if / else statement is enclosed within ____.",
       choices: ["Quotes", "Curly Brackets", "Parentheses", "Square Brackets"],
       answer: "Parentheses"
     },
-	
-		{
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["Quotes", "Curly Brackets", "Parentheses", "Square Brackets"],
-      answer: "Parentheses"
-    },
-	
+		
 	{
       title: "A very useful tool used during development and debugging for printing content to the debugger is",
       choices: ["JavaScript", "Terminal / Bash", "For Loops", "Console.log"],

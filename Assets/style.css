@@ -7,7 +7,7 @@ header {
 }
 
 h1 {
-	font-size:2em;
+	font-size:3em;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-align: center;
 }
@@ -30,14 +30,6 @@ h2 {
 	padding: 2%;
 }
 
-button {
-	background-color:purple;
-	color:white;
-	padding: 1%;
-	font-size: 2em;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-}
-
 .values {
 	display: block;
 	margin-bottom: 2%;
@@ -53,15 +45,19 @@ button {
   max-width:980px;
   margin: 0 auto;
   color: white;
-  display:flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 16px 30px;
+  padding: 1.5%;
+  font-size: .75em;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 #controls{
   background-color: #41275e;
+	font-size: 1.5em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
 }
 
 #timer {
@@ -72,6 +68,7 @@ button {
   left:40px;
   background-color: purple;
   color: white;
+  float:right;
 }
 
 .hide{
@@ -84,4 +81,50 @@ button {
 
 .disable{
 pointer-events:none;
+}
+
+/* Styling the Quiz Buttons */
+
+#title {
+	text-align:center;
+	font-size: 1.5em;
+	font-weight: 600;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+
+#quizHolder button{
+  background-color:#41275e;
+  border-radius:5px;
+  color:white;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
+  font-size: 1.5em;
+  margin: auto;
+  padding: 5px 5px ;
+  cursor:pointer;
+  display: block;
+  width: 50%;
+  text-align: left;
+}
+
+#quizHolder button:hover{
+  background-color: #613a8d;
+}
+
+/*Styling the Score Indicator*/
+
+#scoreIndicator, #errorIndicator{
+  border-top: 1px solid #999;
+  color: #41275e;
+  margin: auto 0;
+  font-style: italic;
+  font-weight:700;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
+  font-size: 2em;
+	text-align: center;
+}
+
+#scoreIndicator p, #errorIndicator p{
+margin:0;
+margin-top:10px;
 }
