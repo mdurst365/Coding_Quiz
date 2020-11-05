@@ -23,7 +23,8 @@
 	<header id="positionWrapper">
     <h1>Coding Quiz Challenge</h1>
 	<section class="main" id="intro">
-    <h2>Try to answer the following code-related questions within the time limit.
+    <h2>Try to answer the following code-related questions within the time limit.<br>
+
       Keep in mind that incorrect answers will penalize your score/time by ten seconds.
     </h2>
     <!-- start button for timer -->	
@@ -48,12 +49,14 @@
 	
 	<!-- End Quiz -->	
 	<section id="finish" class="hide">
-    <h1>Quiz Over!</h1>
-    <p>Your final score is&nbsp;<span id="score"></span></p>
+	<h1>Quiz Over!</h1>
+	<div class="finalScore">	
+    <p class="main">Your final score is&nbsp;<span id="score"></span></p>	
     <div id="records">
 		
 	<!-- Enter High Score Info -->	
       <p>Enter initials: </p><input id="initials" type="text"> <button>Submit</button>
+		</div>
     </div>
     <div id="errorIndicator" class="invisible">
       <p>&nbsp;</p>
@@ -62,9 +65,12 @@
 	
 	<!--Display High Score and Restart -->
 	<section id="highScores" class="hide">
+	<!--needed to add a div to make this section functional -->	
+	<div></div>	
     <h1>High Scores</h1>
-   	<p>&nbsp;</p>
-    <button id="reset">Go Back</button> <button id="clearScores">Clear Highscores</button>
+    <button class="finish" id="reset">Go Back</button>
+	<br>
+	<button class="finish" id="clearScores">Clear Highscores</button>
   </section>
 	
 	

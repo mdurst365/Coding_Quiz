@@ -31,6 +31,10 @@ h2 {
 	padding: 2%;
 }
 
+.start:hover{
+  background-color: #613a8d;
+}
+
 .values {
 	display: block;
 	margin-bottom: 2%;
@@ -124,6 +128,29 @@ margin:0;
 margin-top:10px;
 }
 
+/*Styling the High Scores*/
+#highScores {
+	marign:auto 0;
+	text-align:center;
+}
 
+/*Styling the Final Scores*/
+.finalScore {
+	marign:auto 0;
+	text-align:center;
+	font-size: 1.5em;
+}
 
+/*Styling Finish Buttons */
+.finish {
+	display: block;
+	margin: auto;
+	background-color: purple;
+	color: white;
+	font-size: 1em;
+}
+
+.finish:hover{
+  background-color: #613a8d;
+}
 

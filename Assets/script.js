@@ -3,8 +3,8 @@
 document.addEventListener('DOMContentLoaded', (event) => {
 
 	//1. Setting intial required variables 
-	const initialTime = 75;
-	let time = 75;
+	const initialTime = 90;
+	let time = 90;
 	let score = 0;
 	let qCount = 0;
 	let timeset;
