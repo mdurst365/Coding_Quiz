@@ -5,13 +5,13 @@
 - [X] build a timed coding quiz with multiple-choice questions 
 - [X] use dynamically updated HTML and CSS powered by JavaScript code that you write 
 - [X] Create a timed quiz on JavaScript fundamentals 
-- [ ] that stores high scores
+- [X] that stores high scores
 - [X] When I click the start button then a timer starts and I am presented with a question
 - [X] When I answer a question then I am presented with another question
 - [X] When I answer a question incorrectly then time is subtracted from the clock
 - [X] When all questions are answered or the timer reaches 0 then the quiz is over
-- [ ] When the quiz is over then I can save my initials and score
-- [ ] Repository contains quality README file with description, screenshot, and link to deployed application
+- [X] When the quiz is over then I can save my initials and score
+- [X] Repository contains quality README file with description, screenshot, and link to deployed application
 
 ## MIT License
 
