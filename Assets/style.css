@@ -1,41 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	background-color: #B5B3B3;
-	margin: 0;
-}
-
 header {
   margin: auto;
-  width: 60%;
-  border: 3px solid purple;
-  background-color: purple;
-}
-
-main {
-  margin: auto;
-  width: 60%;
-  border: 3px solid purple;
-  background-color: white;
+  width: 70%;
 }
 
 h1 {
+	font-size:2em;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-align: center;
-	font-weight:600;
-	font-size: 2.5em;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	color: white;
-	padding: 1%;
 }
 
 h2 {
+	font-size:1em;
+	font-weight:200;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-align: center;
-	font-weight:400;
-	font-size: 1em;
-	line-height: 1.5;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	padding: 1%;
 }
 
 .start {

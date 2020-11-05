@@ -5,29 +5,34 @@
 <title>Coding Quiz</title>
 	<link rel="stylesheet" href="Assets/style.css" />
 	<link rel="stylesheet" href="Assets/normalize.css" />
+	<script src="Assets/questions.js"></script>
+	<script src="Assets/script.js"></script>
 </head>
 
 <body>
 	
-	<!-- Need a timer and a score to display here -->
-	<div class="values">
-    <button id="scores" class="valuesText">View High Scores</button>
-    <div id="timer"><p class="valuesText">Time: <span id="time">0</span></p></div>
+	<!-- High Score and Timer Tracker -->
+	<div id="controls" class="values">
+  <div id="info">
+    <button id="scores" href="">View High Scores</button>
+    <div id="timer"><p>Time: <span id="time">0</span></p></div>
   </div>
+</div>
 	
 	<!-- Header should be hidden when quiz starts -->
-	<header>
-		
-	<h1>Coding Quiz Challenge</h1>
-	
+	<header id="positionWrapper">
+    <h1>Coding Quiz Challenge</h1>
+	<section class="main" id="intro">
+    <h2>Try to answer the following code-related questions within the time limit.
+      Keep in mind that incorrect answers will penalize your score/time by ten seconds.
+    </h2>
+    <!-- start button for timer -->	
+	<button id="startTime" class="start">START QUIZ</button>
+	  </section>
 	</header>
 	
-	<main>
-		
-	<h2>Try to answer the following code-related questions within the time limit.<br>
-	Keep in mind that incorrect answers will penalize your score/time by ten seconds.</h2>
+	<!-- Questions will go here -->	
 	
-	<!-- Questions will go here -->		
 	 <section id="quizHolder" class="hide">
     <p id="title"></p>
     <!-- This area should dynamically populate -->
@@ -36,14 +41,13 @@
     <button></button>
     <button></button>
       <p>&nbsp;</p>
-  </section>	
-
-	<!-- start button for timer -->	
-	<button id="startTime" class="start">START QUIZ</button>
-		<br>
-	<br>
-	</main>
-	<script src="Assets/questions.js"></script>
-	<script src="Assets/script.js"></script>
+		 <div id="scoreIndicator" class="invisible">
+      <p>&nbsp;</p>
+    </div>
+  </section>
+	
+	
+		
+	
 </body>
 </html>
