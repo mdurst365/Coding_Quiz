@@ -1,15 +1,22 @@
 // JavaScript Document
 
-var questions = {
+var questions = [ 
+	{
 	title: "Arrays in JavaScript can be used to store",
-	choices: ["Numbers and Strings","Other Arrays","Booleans","All of the Above"]
+	choices: ["Numbers and Strings","Other Arrays","Booleans","All of the Above"],
 	answer: "All of the Above"
 	
 },
 	
 {
+      title: "Commonly used data types DO NOT include:",
+      choices: ["strings", "booleans", "alerts", "numbers"],
+      answer: "alerts"
+    },	
+	
+{
 	title: "Commonly used data types DO NOT include",
-	choices: ["Strings", "Booleans", "Alerts", "Numbers"]
+	choices: ["Strings", "Booleans", "Alerts", "Numbers"],
 	answer: "Alerts"
 	
 },	
@@ -31,3 +38,4 @@ var questions = {
       choices: ["JavaScript", "Terminal / Bash", "For Loops", "Console.log"],
       answer: "Console.log"
     },
+	];

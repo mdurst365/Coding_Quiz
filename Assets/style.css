@@ -30,6 +30,14 @@ h2 {
 	padding: 2%;
 }
 
+button {
+	background-color:purple;
+	color:white;
+	padding: 1%;
+	font-size: 2em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
 .values {
 	display: block;
 	margin-bottom: 2%;
