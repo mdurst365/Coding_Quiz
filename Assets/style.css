@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
+}
+
 header {
   margin: auto;
   width: 70%;
@@ -8,14 +12,12 @@ header {
 
 h1 {
 	font-size:3em;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-align: center;
 }
 
 h2 {
 	font-size:1em;
 	font-weight:200;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	text-align: center;
 }
 
@@ -26,7 +28,6 @@ h2 {
 	background-color: purple;
 	color: white;
 	font-size: 1em;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	padding: 2%;
 }
 
@@ -37,7 +38,6 @@ h2 {
 	background-color: #422642;
 	color: white;
 	font-size: 1em;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	padding: 2%;
 }
 
@@ -50,13 +50,11 @@ h2 {
   flex-direction: column;
   padding: 1.5%;
   font-size: .75em;
-  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 #controls{
   background-color: #41275e;
 	font-size: 1.5em;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: 600;
 }
 
@@ -89,7 +87,6 @@ pointer-events:none;
 	text-align:center;
 	font-size: 1.5em;
 	font-weight: 600;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 
@@ -97,7 +94,6 @@ pointer-events:none;
   background-color:#41275e;
   border-radius:5px;
   color:white;
-  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
   font-size: 1.5em;
   margin: auto;
   padding: 5px 5px ;
@@ -118,8 +114,7 @@ pointer-events:none;
   color: #41275e;
   margin: auto 0;
   font-style: italic;
-  font-weight:700;
-  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
+  font-weight:600;
   font-size: 2em;
 	text-align: center;
 }
@@ -128,3 +123,7 @@ pointer-events:none;
 margin:0;
 margin-top:10px;
 }
+
+
+
+
