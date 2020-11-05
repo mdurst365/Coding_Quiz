@@ -2,14 +2,14 @@
 
 ## Task List
 
-- [ ] build a timed coding quiz with multiple-choice questions 
-- [ ] use dynamically updated HTML and CSS powered by JavaScript code that you write 
-- [ ] Create a timed quiz on JavaScript fundamentals 
+- [X] build a timed coding quiz with multiple-choice questions 
+- [X] use dynamically updated HTML and CSS powered by JavaScript code that you write 
+- [X] Create a timed quiz on JavaScript fundamentals 
 - [ ] that stores high scores
-- [ ] When I click the start button then a timer starts and I am presented with a question
-- [ ] When I answer a question then I am presented with another question
-- [ ] When I answer a question incorrectly then time is subtracted from the clock
-- [ ] When all questions are answered or the timer reaches 0 then the quiz is over
+- [X] When I click the start button then a timer starts and I am presented with a question
+- [X] When I answer a question then I am presented with another question
+- [X] When I answer a question incorrectly then time is subtracted from the clock
+- [X] When all questions are answered or the timer reaches 0 then the quiz is over
 - [ ] When the quiz is over then I can save my initials and score
 - [ ] Repository contains quality README file with description, screenshot, and link to deployed application
 
