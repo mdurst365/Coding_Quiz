@@ -38,5 +38,42 @@ h2 {
 	color: white;
 	font-size: 1em;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	padding: 1%;
+	padding: 2%;
+}
+
+#info{
+  max-width:980px;
+  margin: 0 auto;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 16px 30px;
+}
+
+#controls{
+  background-color: #41275e;
+}
+
+#timer {
+	right:40px;
+}
+
+#scores {
+  left:40px;
+  background-color: purple;
+  color: white;
+}
+
+.hide{
+  display:none;
+}
+
+.invisible{
+  visibility:hidden;
+}
+
+.disable{
+pointer-events:none;
 }
