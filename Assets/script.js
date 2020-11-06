@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
 
 	//1. Setting intial required variables 
-	const initialTime = 90;
+	//const initialTime = 90;
 	let time = 90;
 	let score = 0;
 	let qCount = 0;
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 	// Resets all quiz settings to the default to replay the quiz
 	queryElement("#reset").addEventListener("click", () => {
-		time = initialTime;
+		time = 90;
 		score = 0;
 		qCount = 0;
 		onlyDisplaySection("#intro");
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		e.preventDefault();
 		clearInterval(clock);
 		queryElement('#time').innerHTML = 0;
-		time = initialTime;
+		time = 90;
 		score = 0;
 		qCount = 0;
 		onlyDisplaySection("#highScores");
