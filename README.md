@@ -4,6 +4,14 @@ This is a quiz application using HTML, CSS, and Javascript. The application emph
 
 Finally, with the user's permission the application will use client side storage to keep track of high scores on the user's computer.
 
+The application can be viewed here: https://mdurst365.github.io/Coding_Quiz/
+
+# Screenshots 
+
+![screenshot1](https://raw.githubusercontent.com/mdurst365/Coding_Quiz/main/Assets/Capture.JPG)
+![screenshot2](https://raw.githubusercontent.com/mdurst365/Coding_Quiz/main/Assets/Capture2.JPG)
+![screenshot3](https://raw.githubusercontent.com/mdurst365/Coding_Quiz/main/Assets/Capture3.JPG)
+
 It was created as a homework assignment for OSU's coding bootcamp. 
 
 The requirements of the homework assignment are listed below:
