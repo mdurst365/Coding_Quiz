@@ -1,5 +1,13 @@
 # 04 Web APIs: Code Quiz
 
+This is a quiz application using HTML, CSS, and Javascript. The application emphasizes the use of dynamic HTML and Javascript to generate quiz questions. It further uses JavaScript to check if answers are correct and record a score. 
+
+Finally, with the user's permission the application will use client side storage to keep track of high scores on the user's computer.
+
+It was created as a homework assignment for OSU's coding bootcamp. 
+
+The requirements of the homework assignment are listed below:
+
 ## Task List
 
 - [X] build a timed coding quiz with multiple-choice questions 
